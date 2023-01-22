@@ -1,0 +1,76 @@
+/* Modif button */
+
+#launch{
+   display: flex;
+   justify-content: center;
+}
+
+button {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 24px;
+    transition: 1s;
+    border-radius: 2em;
+    border: none;
+}
+
+button-white {
+    background-color: red;
+    color: white;
+    border-style: groove;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+    border-style: groove;
+}
+
+
+/* Modif Coureurs */
+
+.hidden{
+    display: none;
+}
+
+.marioo {
+    position: absolute;
+    top: 3cm;
+    left: 0;
+}
+
+.bolt {
+    position: absolute;
+    top: 6cm;
+    left: 0;
+}
+
+.baha {
+    position: absolute;
+    top: 9cm;
+    left: 0;
+}
+
+.hihi {
+    position: absolute;
+    top: 12cm;
+    left: 0;
+}
+
+.non {
+    position: absolute;
+    top: 15cm;
+    left: 0;
+    height: 3cm;
+    width: 3cm;
+}
+
+.oui {
+    position: absolute;
+    top: 18cm;
+    left: 0;
+}
+
